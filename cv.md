@@ -42,5 +42,23 @@ function guessNumber() {
 		out.innerHTML = 'Your number is smaller';
 	}
 }  
-```
+```  
 
+## Experience  
+
+>Have not job experience yet  
+
+## Education  
+
+> _2008 / 2012_ - Ivano-Frankivsk National Technical University of Oil and Gas  
+programming - software engineer
+
+> _2004 / 2008_ - College of Electronic Devices  
+programming - software developer  
+
+## Languages  
+
+> Ukrainian - C1  
+> Russian - C2  
+> English - A2  
+> Polish - A2  
