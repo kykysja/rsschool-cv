@@ -1,0 +1,31 @@
+html {
+	font-size: 10px;
+	height: 100%;
+}
+
+body {
+	margin: 0 auto;
+	@extend %font-main;
+	background: $color-bg-dark;
+	height: 100%;
+}
+
+h1 {
+	@extend %font-titles;
+	@include font(5.55rem);
+	color: $color-font-dark;
+	text-transform: uppercase;
+}
+
+h2 {
+	@extend %font-titles;
+	@include font(4rem);
+	color: $color-font-dark;
+}
+
+h3 {
+	@extend %font-titles;
+	@include font(2rem, 3rem);
+	color: $color-font-dark;
+	text-transform: uppercase;
+}

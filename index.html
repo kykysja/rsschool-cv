@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>CV</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="photo">
+				<div class="photo-bg">
+					<img src="img/avatar.svg" alt="It should have been a photo here" width="200" height="200">
+				</div>
+			</div>
+			<div class="info">
+				<h1 class="name">Yuliia Nunnaieva</h1>
+				<h3 class="position">frontend developer</h3>
+				<p class="about">
+					I'm attentive to details junior frontend developer looking for an entry-level position in a Company
+					to develop my skills and get into a real and in-demand web development environment
+				</p>
+			</div>
+		</header>
+		<div class="content">
+			<aside class="aside">
+				<section class="contacts">
+					<h2 class="contacts__title aside__titles">Contacts</h2>
+					<ul class="contacts__items aside__items">
+						<li class="contacts__item aside__item">
+							<p class="phone">phone number: <span>+48729597153</span></p>
+						</li>
+						<li class="contacts__item aside__item">
+							<p class="email">e-mail: <span>kykysja11@gmail.com</span></p>
+						</li>
+						<li class="contacts__item aside__item">
+							<p class="discord">discord acсount: <span>kykysja</span></p>
+						</li>
+						<li class="contacts__item aside__item">
+							<p class="github">github account: <a href="https://github.com/kykysja">kykysja</a></p>
+						</li>
+					</ul>
+				</section>
+				<section class="skills">
+					<h2 class="skills__title aside__titles">Skills</h2>
+					<ul class="skills__items aside__items">
+						<li class="skills__item aside__item">HTML/CSS3, SCSS</li>
+						<li class="skills__item aside__item">Basic JavaScript</li>
+						<li class="skills__item aside__item">GIT</li>
+						<li class="skills__item aside__item">Markdown</li>
+						<li class="skills__item aside__item">BEM methodology</li>
+						<li class="skills__item aside__item">Semantic HTML</li>
+						<li class="skills__item aside__item">Responsive web design</li>
+						<li class="skills__item aside__item">Cross-browser compatibility</li>
+						<li class="skills__item aside__item">Browser developer tools</li>
+					</ul>
+				</section>
+				<section class="languages">
+					<h2 class="languages__title aside__titles">Languages</h2>
+					<ul class="languages__items aside__items">
+						<li class="languages__item aside__item">Ukrainian - C1</li>
+						<li class="languages__item aside__item">Russian - C2</li>
+						<li class="languages__item aside__item">English - B2</li>
+						<li class="languages__item aside__item">Polish - B2</li>
+					</ul>
+				</section>
+			</aside>
+			<main class="main">
+				<section class="experience">
+					<h2 class="experience__title main__titles">Experience</h2>
+					<ul class="experience__items items">
+						<li class="experience__item item">
+							<div class="experience-time time">( 2021 - ... )</div>
+							<div class="experience-info info">
+								<p class="info__position">course participant</p>
+								<p class="info__place">Rolling Scopes School</p>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section class="education">
+					<h2 class="education__title main__titles">Education</h2>
+					<ul class="education__items items">
+						<li class="education__item item">
+							<div class="education-time time">( 2008 - 2012 )</div>
+							<div class="education-info info">
+								<p class="info__degree">software engineer</p>
+								<p class="info__place">Ivano-Frankivsk National Technical University of Oil and Gas</p>
+							</div>
+						</li>
+						<li class="education__item item">
+							<div class="education-time time">( 2004 - 2008 )</div>
+							<div class="education-info info">
+								<p class="info__degree">software developer</p>
+								<p class="info__place">College of Electronic Devices</p>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section class="code-examples">
+					<h2 class="code-examples__title main__titles">Code examples</h2>
+					<pre>
+						<code class="code">
+let progNumber;
+progNumber = Math.floor((Math.random() * 10) + 1);
+function guessNumber() {
+   let userNumber, out;
+   userNumber = document.getElementById('user-number').value;
+   out = document.getElementById('out');
+   if (userNumber == progNumber) {
+      out.innerHTML = 'Congratulation!!! You guess a number';
+   } else if (userNumber > progNumber) {
+      out.innerHTML = 'Your number is bigger';
+   } else {
+      out.innerHTML = 'Your number is smaller';
+   }
+}
+						</code>
+					</pre>
+				</section>
+				<footer class="footer">
+					<div class="footer__info">
+						<p class="date">- 2021 -</p>
+						<a class="github-link" href="https://github.com/kykysja">https://github.com/kykysja</a>
+					</div>
+					<a href="https://rs.school/js/" class="rsschool-logo">
+						<img src="img/rsschool-logo.svg" alt="rsschool-logo" width="135" height="50">
+					</a>
+				</footer>
+			</main>
+		</div>
+	</div>
+	<div class="bottom-margin"></div>
+</body>
+
+</html>
