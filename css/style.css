@@ -88,7 +88,7 @@ body, .about {
   line-height: 2rem;
 }
 
-h1, h3 {
+h1, h2, h3 {
   font-family: "Roboto", Verdana, sans-serif;
 }
 
@@ -104,11 +104,13 @@ h1, h3 {
 
 html {
   font-size: 10px;
+  height: 100%;
 }
 
 body {
   margin: 0 auto;
   background: #312d25;
+  height: 100%;
 }
 
 h1 {
@@ -118,6 +120,14 @@ h1 {
   line-height: 5.55rem;
   color: #0c0801;
   text-transform: uppercase;
+}
+
+h2 {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 4rem;
+  color: #0c0801;
 }
 
 h3 {
@@ -133,7 +143,7 @@ h3 {
   width: 900px;
   margin: 0 auto;
   background: #eeebe3;
-  padding: 0 25px 0 20px;
+  padding: 20px 25px 20px 20px;
   margin-top: 60px;
 }
 
@@ -144,7 +154,6 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 20px;
   text-align: right;
 }
 
@@ -202,7 +211,6 @@ h3 {
   max-width: 33%;
   min-width: 33%;
   padding: 0 20px;
-  margin-bottom: 20px;
   font-weight: 600;
   letter-spacing: 0.1px;
 }
@@ -242,7 +250,91 @@ h3 {
   padding-bottom: 25px;
 }
 
+.main {
+  max-width: 57%;
+  min-width: 57%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+.main__titles {
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space between;
+      -ms-flex-pack: space between;
+          justify-content: space between;
+  padding-bottom: 20px;
+}
+
+.item:last-child {
+  padding-bottom: 0;
+}
+
+.time {
+  min-width: 28%;
+  font-style: italic;
+}
+
+.info__position,
+.info__degree {
+  font-weight: 700;
+}
+
+.info__place {
+  padding-top: 5px;
+}
+
+.code-examples {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.code-examples__title {
+  padding-bottom: 5px;
+}
+
+.code {
+  font-size: 1.45rem;
+}
+
 .bottom-margin {
   width: 100%;
   height: 60px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.github-link {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 700;
+  padding-bottom: 3px;
+}
+
+.date {
+  text-align: center;
+  padding-bottom: 8px;
 }
