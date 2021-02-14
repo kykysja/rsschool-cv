@@ -14,7 +14,6 @@ h1 {
 	@extend %font-titles;
 	@include font(5.55rem);
 	color: $color-font-dark;
-	text-transform: uppercase;
 }
 
 h2 {
@@ -27,5 +26,4 @@ h3 {
 	@extend %font-titles;
 	@include font(2rem, 3rem);
 	color: $color-font-dark;
-	text-transform: uppercase;
 }
