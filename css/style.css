@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+body, .about {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2rem;
+}
+
+h1, h3 {
+  font-family: "Roboto", Verdana, sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  background: #312d25;
+}
+
+h1 {
+  font-size: 5.55rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 5.55rem;
+  color: #0c0801;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 3rem;
+  color: #0c0801;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  background: #eeebe3;
+  padding: 0 25px 0 20px;
+  margin-top: 60px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.photo {
+  background: #312d25;
+  max-width: 33%;
+  min-width: 33%;
+  padding-top: 33px;
+}
+
+.photo-bg {
+  background-color: #eeebe3;
+  width: 250px;
+  height: 230px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.photo-bg img {
+  padding-top: 10px;
+}
+
+.info {
+  width: 57%;
+}
+
+.about {
+  color: #0c0801;
+  font-size: 1.8rem;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  padding-top: 100px;
+  text-align: justify;
+}

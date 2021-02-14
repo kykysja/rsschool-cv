@@ -3,8 +3,9 @@
 
 @import "abstract/constants";
 @import "abstract/mixins";
-@import "abstract/placeholder";
+@import "abstract/placeholders";
 
 @import "base/base";
 
 @import "components/layouts";
+@import "components/header";
