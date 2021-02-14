@@ -32,12 +32,26 @@
 	}
 }
 
+.contacts__title {
+	margin-top: 25px;
+}
+
 .contacts__item {
 	span,
 	a {
 		font-style: italic;
 		padding-left: 10px;
 	}
+}
+
+.contacts__social-items {
+	display: flex;
+	justify-content: space-between;
+	max-width: 50%;
+	padding-top: 25px;
+}
+
+.contacts__social-item {
 }
 
 .skills__item {

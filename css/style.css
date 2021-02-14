@@ -191,7 +191,7 @@ h3 {
   font-size: 1.8rem;
   font-style: italic;
   letter-spacing: 1.5px;
-  padding-top: 100px;
+  padding-top: 90px;
   text-align: justify;
 }
 
@@ -240,10 +240,25 @@ h3 {
   padding-bottom: 0;
 }
 
+.contacts__title {
+  margin-top: 25px;
+}
+
 .contacts__item span,
 .contacts__item a {
   font-style: italic;
   padding-left: 10px;
+}
+
+.contacts__social-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 50%;
+  padding-top: 25px;
 }
 
 .languages {
@@ -280,6 +295,10 @@ h3 {
 
 .item:last-child {
   padding-bottom: 0;
+}
+
+.experience__title {
+  margin-top: 20px;
 }
 
 .time {
