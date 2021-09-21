@@ -1,19 +1,12 @@
 %font-main {
-	font-family: Arial, Helvetica, sans-serif;
-	@include font(1.6rem, 2rem);
-}
-%font-titles {
-	font-family: "Roboto", Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  @include font(2rem, 2.4rem);
 }
 
-%marker-list {
-	&:before {
-		content: " ";
-		width: 6px;
-		height: 6px;
-		border-radius: 50%;
-		float: left;
-		margin: 6px 12px 0 0;
-		background: $color-font-light;
-	}
+%font-titles {
+  font-family: "Roboto", Verdana, sans-serif;
+}
+
+%transition {
+  transition: all 0.3s ease-out;
 }
