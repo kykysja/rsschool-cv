@@ -6,11 +6,13 @@
 @import "abstract/placeholders";
 
 @import "base/base";
+@import "base/layouts";
 
-@import "components/layouts";
 @import "components/header";
-@import "components/content/content";
-@import "components/content/aside";
-@import "components/content/main";
-@import "components/additional";
+@import "components/about-me";
+@import "components/contacts";
+@import "components/skills";
+@import "components/education";
+@import "components/code-examples";
+@import "components/projects";
 @import "components/footer";
