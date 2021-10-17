@@ -1,0 +1,12 @@
+%font-main {
+  font-family: Arial, Helvetica, sans-serif;
+  @include font(2rem, 2.4rem);
+}
+
+%font-titles {
+  font-family: "Roboto", Verdana, sans-serif;
+}
+
+%transition {
+  transition: all 0.3s ease-out;
+}

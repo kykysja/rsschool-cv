@@ -1,0 +1,30 @@
+.footer__container {
+  background-color: $color-bg-dark;
+  padding: 0;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  color: $color-font-light;
+
+  img {
+    filter: invert(100%);
+  }
+}
+
+.github-link {
+  font-style: italic;
+  font-weight: 700;
+  padding-bottom: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  padding-bottom: 12px;
+}

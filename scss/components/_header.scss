@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  margin-bottom: 100px;
+}
+
+.header__nav {
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav__link {
+  @include font(2.2rem);
+  padding: 5px 8px;
+  border-radius: 5px;
+  list-style: none;
+
+  &:hover {
+    color: $color-font-dark;
+    background-color: $color-bg-bright;
+    box-shadow: 0 10px 10px rgba(121, 118, 118, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    @extend %transition;
+  }
+}
